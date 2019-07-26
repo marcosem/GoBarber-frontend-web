@@ -3,12 +3,12 @@ import { Switch } from 'react-router-dom';
 import Route from './Route'; // RouteWrapper
 
 // Autentication routes
-import SignIn from '../pages/SignIn';
-import SignUp from '../pages/SignUp';
+import SignIn from '~/pages/SignIn';
+import SignUp from '~/pages/SignUp';
 
 // Routes that need login
-import Dashboard from '../pages/Dashboard';
-import Profile from '../pages/Profile';
+import Dashboard from '~/pages/Dashboard';
+import Profile from '~/pages/Profile';
 
 export default function Routes() {
   return (

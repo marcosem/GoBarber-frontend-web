@@ -5,8 +5,9 @@ import PropTypes from 'prop-types';
 import { Route, Redirect } from 'react-router-dom';
 
 // Default layouts
-import AuthLayout from '../pages/_layouts/auth';
-import DefaultLayout from '../pages/_layouts/default';
+// ~ is related to customize-cra, react-app-rewired, and babel-plugin-root-import
+import AuthLayout from '~/pages/_layouts/auth';
+import DefaultLayout from '~/pages/_layouts/default';
 
 export default function RouterWrapper({
   component: Component,
