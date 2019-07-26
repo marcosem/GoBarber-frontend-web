@@ -7,10 +7,13 @@ import Routes from './routes';
 // Routes can listen the navigation on this history
 import history from './services/history';
 
+import GlobalStyle from './styles/global';
+
 function App() {
   return (
     <Router history={history}>
       <Routes />
+      <GlobalStyle />
     </Router>
   );
 }
