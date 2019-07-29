@@ -25,9 +25,6 @@ export const Badge = styled.button`
         text-align: center;
         font-size: 7px;
         border-radius: 50%;
-         {
-          /*font-size: 7px; */
-        }
       }
     `}
 `;
