@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 600px;
-  margin: 50px auto;
+  margin: 15px auto;
 
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
-    margin-top: 30px;
+    margin-top: 15px;
   }
 `;
 
