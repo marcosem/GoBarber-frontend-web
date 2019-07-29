@@ -42,8 +42,6 @@ export default function Notifications() {
       }));
 
       setNotifications(data);
-
-      console.tron.log(numberOfUnread);
     }
 
     loadNotifications();
