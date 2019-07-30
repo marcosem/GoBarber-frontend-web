@@ -1,8 +1,9 @@
 import styled from 'styled-components';
+import PerfectScrollBar from 'react-perfect-scrollbar';
 
 export const Container = styled.div`
   max-width: 600px;
-  margin: 15px auto;
+  margin: 30px auto;
 
   display: flex;
   flex-direction: column;
@@ -28,7 +29,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
-    margin-top: 15px;
+    margin-top: 30px;
   }
 `;
 
@@ -51,4 +52,9 @@ export const Time = styled.li`
     margin-top: 3px;
     color: ${props => (props.available ? '#999' : '#666')};
   }
+`;
+
+export const Scroll = styled(PerfectScrollBar)`
+  max-height: 530px;
+  padding: 5px 20px;
 `;
